@@ -1,0 +1,22 @@
+ - <b id="#/properties/programme">programme</b>
+	 - **Description:** Inspection Programme (May just provide Name or @ID)
+	 - **Type:** `string`
+	 - <b id="farmassuranceinspectionprogrammefarmassuranceinspectionprogramme.md">Link to schema: [FarmAssuranceInspectionProgramme](FarmAssuranceInspectionProgramme.md)</b>
+ - <b id="#/properties/status">status</b>
+	 - **Description:** Accreditation status (should be an enumeration - eg. Registered, Accredited, Deregistered)
+	 - **Type:** `string`
+ - <b id="#/properties/startDate">startDate</b>
+	 - **Description:** Start date for the status
+	 - **Type:** `string`
+ - <b id="#/properties/endDate">endDate</b>
+	 - **Description:** End date for the status
+	 - **Type:** `string`
+ - <b id="#/properties/modified">modified</b>
+	 - **Description:** Date the status was modified (e.g. audit date, etc)
+	 - **Type:** `string`
+ - <b id="#/properties/controlPoints">controlPoints</b>
+	 - **Description:** Optionally, an array of Control Points for the inspection
+	 - **Type:** `array`
+	 - <b id="farmassurancecontrolpointfarmassurancecontrolpoint.md">Link to schema: [FarmAssuranceControlPoint](FarmAssuranceControlPoint.md)</b>
+
+_Generated with [json-schema-md-doc](https://brianwendt.github.io/json-schema-md-doc/)_
