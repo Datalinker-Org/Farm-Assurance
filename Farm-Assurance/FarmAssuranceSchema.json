@@ -1,1 +1,28 @@
-{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"organization":{"@id":"http://schema.org/Organization","@type":"http://schema.org/Organization.jsonld","type":"object","dldescription":"Contact details of the provider organization"},"producers":{"@id":"https://www.datalinker.org/context/FarmAssuranceProducer","@container":"@set","@type":"http://www.datalinker.org/contexts/2.0/FarmAssuranceProducer.jsonld","type":"array","items":{"type":"object"},"dldescription":"URL with a list of suppliers to which the consumer has access"},"programmes":{"@id":"https://www.datalinker.org/context/FarmAssuranceInspectionProgramme","@container":"@set","@type":"http://www.datalinker.org/contexts/2.0/FarmAssuranceInspectionProgramme.jsonld","type":"array","items":{"type":"object"},"dldescription":"The inspection programmes delivered for this consumer"}}}
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "organization": {
+      "@id": "http://schema.org/Organization",
+      "@type": "@id",
+      "type": "object",
+      "dldescription": "Contact details of the provider organization"
+    },
+    "producers": {
+      "@id": "[FarmAssuranceProducer](FarmAssuranceProducer.md)",
+      "@container": "@set",
+      "@type": "@id",
+      "type": "array",
+      "items": { "type": "object" },
+      "dldescription": "URL with a list of suppliers to which the consumer has access"
+    },
+    "programmes": {
+      "@id": "[FarmAssuranceInspectionProgramme](FarmAssuranceInspectionProgramme.md)",
+      "@container": "@set",
+      "@type": "@id",
+      "type": "array",
+      "items": { "type": "object" },
+      "dldescription": "The inspection programmes delivered for this consumer"
+    }
+  }
+}

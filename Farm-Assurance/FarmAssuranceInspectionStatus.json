@@ -1,1 +1,46 @@
-{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"programme":{"@id":"https://www.datalinker.org/context/FarmAssuranceInspectionStatus-Programme","@type":"@id","type":"string","format":"uri","dltype":"http://www.datalinker.org/context/FarmAssuranceInspectionProgramme","dldescription":"Inspection Programme (May just provide Name or @ID)"},"status":{"@id":"https://www.datalinker.org/context/FarmAssuranceInspectionStatus-Status","@type":"xsd:string","type":"string","dldescription":"Accreditation status (should be an enumeration - eg. Registered, Accredited, Deregistered)"},"startDate":{"@id":"https://www.datalinker.org/context/FarmAssuranceInspectionStatus-StartDate","@type":"xsd:string","type":"string","dldescription":"Start date for the status"},"endDate":{"@id":"https://www.datalinker.org/context/FarmAssuranceInspectionStatus-EndDate","@type":"xsd:string","type":"string","dldescription":"End date for the status"},"modified":{"@id":"https://www.datalinker.org/context/FarmAssuranceInspectionStatus-Modified","@type":"xsd:string","type":"string","dldescription":"Date the status was modified (e.g. audit date, etc)"},"controlPoints":{"@id":"https://www.datalinker.org/context/FarmAssuranceControlPoint","@container":"@set","@type":"https://www.datalinker.org/context/FarmAssuranceControlPoint.jsonld","type":"array","items":{"type":"object"},"dldescription":"Optionally, an array of Control Points for the inspection"}}}
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "programme": {
+      "@id": "[Programme](#Programme)",
+      "@type": "@id",
+      "type": "string",
+      "format": "uri",
+      "dltype": "[FarmAssuranceInspectionProgramme](FarmAssuranceInspectionProgramme.md)",
+      "dldescription": "Inspection Programme (May just provide Name or @ID)"
+    },
+    "status": {
+      "@id": "[Status](#Status)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Accreditation status (should be an enumeration - eg. Registered, Accredited, Deregistered)"
+    },
+    "startDate": {
+      "@id": "[StartDate](#StartDate)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Start date for the status"
+    },
+    "endDate": {
+      "@id": "[EndDate](#EndDate)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "End date for the status"
+    },
+    "modified": {
+      "@id": "[Modified](#Modified)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "Date the status was modified (e.g. audit date, etc)"
+    },
+    "controlPoints": {
+      "@id": "[FarmAssuranceControlPoint](FarmAssuranceControlPoint.md)",
+      "@container": "@set",
+      "@type": "@id",
+      "type": "array",
+      "items": { "type": "object" },
+      "dldescription": "Optionally, an array of Control Points for the inspection"
+    }
+  }
+}

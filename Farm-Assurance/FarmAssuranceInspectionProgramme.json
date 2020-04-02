@@ -1,1 +1,18 @@
-{"$schema":"http://json-schema.org/draft-04/schema#","type":"object","properties":{"name":{"@id":"https://www.datalinker.org/context/FarmAssuranceInspectionProgramme-Name","@type":"xsd:string","type":"string","dldescription":"name of the programme"},"description":{"@id":"https://www.datalinker.org/context/FarmAssuranceInspectionProgramme-Description","@type":"xsd:string","type":"string","dldescription":"longer description of the programme"}}}
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "name": {
+      "@id": "[Name](#Name)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "name of the programme"
+    },
+    "description": {
+      "@id": "[Description](#Description)",
+      "@type": "xsd:string",
+      "type": "string",
+      "dldescription": "longer description of the programme"
+    }
+  }
+}
