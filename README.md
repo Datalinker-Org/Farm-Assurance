@@ -2,10 +2,10 @@
 
 Property descriptions | JSON Schema
 ------------ | -------------
-[FarmAssuranceControlPoint.md](FarmAssuranceControlPoint.md)|[FarmAssuranceControlPoint.json](FarmAssuranceControlPoint.json)
-[FarmAssuranceInspectionProgramme.md](FarmAssuranceInspectionProgramme.md)|[FarmAssuranceInspectionProgramme.json](FarmAssuranceInspectionProgramme.json)
-[FarmAssuranceInspectionStatus.md](FarmAssuranceInspectionStatus.md)|[FarmAssuranceInspectionStatus.json](FarmAssuranceInspectionStatus.json)
-[FarmAssuranceProducer.md](FarmAssuranceProducer.md)|[FarmAssuranceProducer.json](FarmAssuranceProducer.json)
-[FarmAssuranceSchema.md](FarmAssuranceSchema.md)|[FarmAssuranceSchema.json](FarmAssuranceSchema.json)
+[FarmAssuranceControlPoint.md](Farm-Assurance/FarmAssuranceControlPoint.md)|[FarmAssuranceControlPoint.json](Farm-Assurance/FarmAssuranceControlPoint.json)
+[FarmAssuranceInspectionProgramme.md](Farm-Assurance/FarmAssuranceInspectionProgramme.md)|[FarmAssuranceInspectionProgramme.json](Farm-Assurance/FarmAssuranceInspectionProgramme.json)
+[FarmAssuranceInspectionStatus.md](Farm-Assurance/FarmAssuranceInspectionStatus.md)|[FarmAssuranceInspectionStatus.json](Farm-Assurance/FarmAssuranceInspectionStatus.json)
+[FarmAssuranceProducer.md](Farm-Assurance/FarmAssuranceProducer.md)|[FarmAssuranceProducer.json](Farm-Assurance/FarmAssuranceProducer.json)
+[FarmAssuranceSchema.md](Farm-Assurance/FarmAssuranceSchema.md)|[FarmAssuranceSchema.json](Farm-Assurance/FarmAssuranceSchema.json)
 
 
