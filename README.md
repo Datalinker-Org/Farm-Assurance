@@ -1,6 +1,6 @@
 # Farm Assurance
 
-Schemas for farm assurance.
+Farm assurance status.
 
 ## Schemas for [Farm Assurance](Farm-Assurance/README.MD)
 
