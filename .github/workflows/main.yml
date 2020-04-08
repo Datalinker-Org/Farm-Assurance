@@ -9,7 +9,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Generate MD files Step
-        uses: Datalinker-Org/json-schema-md-doc
+        uses: Datalinker-Org/json-schema-md-doc@master
         id: generate_file
       # Use the output from the `hello` step
       - name: Get the list of files
